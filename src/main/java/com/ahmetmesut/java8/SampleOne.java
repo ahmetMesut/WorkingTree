@@ -68,9 +68,9 @@ public class SampleOne {
         Function<String,String> fn2 = fn1.andThen(String::valueOf);
 
         String result = fn2.apply("12");
-        if (result instanceof String) {
+       /* if (result instanceof String) {
             System.out.println("Yes String");
-        }
+        }*/
         return result;
     }
 

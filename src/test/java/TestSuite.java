@@ -7,7 +7,8 @@ import org.junit.runners.Suite;
         FizzBuzzTest.class,
         NumberTest.class,
         BookTest.class,
-        SampleOneTest.class
+        SampleOneTest.class,
+        ExampleTest.class
 })
 public class TestSuite {
 }
